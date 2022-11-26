@@ -9,12 +9,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import {Routes, Route} from "react-router";
 import {BrowserRouter} from "react-router-dom";
-//import Navigation from "./navigation";
-//import UserList from "./users";
-//import usersReducer from "./users/users-reducer";
-import Register from "./register";
-//import Login from "./users/login";
-//import Profile from "./users/profile";
+import Navigation from "./navigation";
+import UserList from "./users";
+import usersReducer from "./users/users-reducer";
+import Register from "./users/register";
+import Login from "./users/login";
+import Profile from "./users/profile";
 //import CurrentUser from "./users/current-user";
 
 const store = configureStore({
@@ -22,7 +22,7 @@ const store = configureStore({
                                  //movies: moviesReducer,
                                  //omdb: omdbReducer,
                                  //likes: likesReducer,
-                                 //users: usersReducer
+                                 users: usersReducer,
                                }
                              })
 
@@ -32,17 +32,17 @@ function App() {
         <Provider store={store}>
             {/*<CurrentUser>*/}
             <BrowserRouter>
-              {/*<Navigation/>*/}
+              <Navigation/>
               <Routes>
                 {/*<Route index element={<Movies/>}/>*/}
                 {/*<Route path="/search" element={<OmdbSearch/>}/>*/}
-                {/*<Route path="/users" element={<UserList/>}/>*/}
+                <Route path="/users" element={<UserList/>}/>
                 <Route path="/" element={<Register/>}/>
-                {/*<Route path="/login" element={<Login/>}/>*/}
-                {/*<Route path="/profile" element={<Profile/>}/>*/}
+                <Route path="/login" element={<Login/>}/>
+                <Route path="/profile" element={<Profile/>}/>
               </Routes>
             </BrowserRouter>
-          {/*</CurrentUser>*/}
+           {/*</CurrentUser>*/}
         </Provider>
       </div>
   );

@@ -1,4 +1,4 @@
-//import Movies from "./movies";
+import Movies from "./users/movies";
 //import moviesReducer from "./movies/movies-reducer";
 import {configureStore} from "@reduxjs/toolkit";
 import {Provider} from "react-redux";
@@ -34,7 +34,7 @@ function App() {
             <BrowserRouter>
               <Navigation/>
               <Routes>
-                {/*<Route index element={<Movies/>}/>*/}
+                <Route path="/movies" element={<Movies/>}/>
                 {/*<Route path="/search" element={<OmdbSearch/>}/>*/}
                 <Route path="/users" element={<UserList/>}/>
                 <Route path="/" element={<Register/>}/>

@@ -24,7 +24,7 @@ function Any() {
            style={{"position": "relative"}}>
            <NavigationTopbar active="home"/>
         <Routes>
-
+                 <Route path="/" element={<HomeAny/>}/>
                  <Route path="homeany" element={<HomeAny/>}/>
                  <Route path="profileany" element={<ProfileAny/>}/>
                  <Route path="searchany" element={<SearchAny/>}/>

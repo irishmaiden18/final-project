@@ -12,8 +12,8 @@ const {pathname} = useLocation();
 
      <ul className="nav nav-pills mb-2">
        <li className="nav-item">
-         <Link to="/any/homeany" className={`nav-link
-                                        ${active === 'homeany'?'active':''}`}>
+         <Link to="/any/homeany" className={`nav-link ${active === 'homeany'?'active':''}
+          ${active == null?'active':''}`}>
          Home
          </Link>
        </li>

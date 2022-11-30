@@ -3,7 +3,7 @@
 //import {useDispatch, useSelector} from "react-redux";
 //import {findAllUsersThunk} from "./users-thunks";
 
-const UserList = () => {
+const Home = () => {
     return(
         <>
             <h1>Home Content</h1>
@@ -12,4 +12,4 @@ const UserList = () => {
     );
 }
 
-export default UserList;
+export default Home;

@@ -1,7 +1,6 @@
 import NavigationSidebar from "./navigation-sidebar";
 import {Routes, Route} from "react-router";
 import Home from "./home";
-import Register from "../any/register";
 import Login from "../any/login";
 import Profile from "./profile";
 import Search from "./search";
@@ -27,12 +26,12 @@ function Users() {
            style={{"position": "relative"}}>
         <Routes>
 
+                 <Route path="/" element={<Home/>}/>
                  <Route path="home" element={<Home/>}/>
                  <Route path="profile" element={<Profile/>}/>
                  <Route path="search" element={<Search/>}/>
                  <Route path="login" element={<Login/>}/>
                                 /* {<Route path="/users/movies" element={<Movies/>}/>}
-                                 <Route path="/" element={<Register/>}/>
                                  <Route path="/users/login" element={<Login/>}/>
                                  <Route path="/users/profile" element={<Profile/>}/>*/}
 

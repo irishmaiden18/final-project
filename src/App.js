@@ -7,20 +7,14 @@ import Any from "./any";
 function App() {
   return (
       <div className="container mt-4 mb-4">
-
-            {/*<CurrentUser>*/}
+          {/*<CurrentUser>*/}
             <BrowserRouter>
               <Routes>
-
-                <Route path="/users/*"
-                element={<Users/>}/>
-                <Route path="/any/*"
-                  element={<Any/>}/>
-
+                <Route path="/users/*" element={<Users/>}/>
+                <Route path="/any/*" element={<Any/>}/>
               </Routes>
             </BrowserRouter>
-           {/*</CurrentUser>*/}
-
+          {/*</CurrentUser>*/}
       </div>
   );
 }

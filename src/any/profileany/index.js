@@ -2,13 +2,14 @@
 //import {current} from "@reduxjs/toolkit";
 //import {logoutThunk} from "./users-thunks";
 
-const Profile = () => {
+const ProfileAny = () => {
     return(
         <>
-            <h1>Profile</h1>
+
+            <h1>Profile Anonymous Content</h1>
 
         </>
     );
 }
 
-export default Profile;
+export default ProfileAny;

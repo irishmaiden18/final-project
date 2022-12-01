@@ -14,10 +14,7 @@ function App() {
             <BrowserRouter>
               <Routes>
 
-                <Route path="/users/*"
-                element={<Users/>}/>
-                <Route path="/*"
-                  element={<Any/>}/>
+                <Route path="/" element={<Any/>}/><Route path="/users/*" element={<Users/>}/><Route path="/any/*" element={<Any/>}/>
 
               </Routes>
             </BrowserRouter>

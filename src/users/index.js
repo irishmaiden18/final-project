@@ -30,7 +30,7 @@ function Users() {
                  <Route path="home" element={<Home/>}/>
                  <Route path="profile" element={<Profile/>}/>
                  <Route path="search" element={<Search/>}/>
-                 <Route path="login" element={<Login/>}/>
+                 <Route path="/any/login" element={<Login/>}/>
 
 
         </Routes>

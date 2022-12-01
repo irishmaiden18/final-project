@@ -25,11 +25,11 @@ function Any() {
            <NavigationTopbar active="homeany"/>
         <Routes>
                  <Route path="/" element={<HomeAny/>}/>
-                 <Route path="/any/homeany" element={<HomeAny/>}/>
-                 <Route path="/any/profileany" element={<ProfileAny/>}/>
-                 <Route path="/any/searchany" element={<SearchAny/>}/>
-                 <Route path="/any/login" element={<Login/>}/>
-                 <Route path="/any/register" element={<Register/>}/>
+                 <Route path="homeany" element={<HomeAny/>}/>
+                 <Route path="profileany" element={<ProfileAny/>}/>
+                 <Route path="searchany" element={<SearchAny/>}/>
+                 <Route path="login" element={<Login/>}/>
+                 <Route path="register" element={<Register/>}/>
 
 
         </Routes>

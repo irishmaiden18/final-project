@@ -16,7 +16,7 @@ function App() {
 
                 <Route path="/users/*"
                 element={<Users/>}/>
-                <Route path="/any/*"
+                <Route path="/*"
                   element={<Any/>}/>
 
               </Routes>

@@ -26,14 +26,12 @@ function Users() {
            style={{"position": "relative"}}>
         <Routes>
 
-                 <Route path="/" element={<Home/>}/>
+                 <Route path="/*" element={<Home/>}/>
                  <Route path="home" element={<Home/>}/>
                  <Route path="profile" element={<Profile/>}/>
                  <Route path="search" element={<Search/>}/>
                  <Route path="login" element={<Login/>}/>
-                                /* {<Route path="/users/movies" element={<Movies/>}/>}
-                                 <Route path="/users/login" element={<Login/>}/>
-                                 <Route path="/users/profile" element={<Profile/>}/>*/}
+
 
         </Routes>
       </div>

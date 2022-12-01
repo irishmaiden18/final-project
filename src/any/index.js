@@ -6,10 +6,6 @@ import Login from "../any/login";
 import ProfileAny from "./profileany";
 import SearchAny from "./searchany";
 
-
-
-
-
 function Any() {
  return (
 

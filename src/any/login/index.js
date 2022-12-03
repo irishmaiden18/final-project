@@ -43,6 +43,17 @@ const Login = () => {
              </center>
             </td>
             </tr>
+             <tr>
+                        <td>
+                        </td>
+                        <td>
+                        <center>
+                        <Link to="/any/register">
+                             <h6>Dont have an account?</h6>
+                         </Link>
+                         </center>
+                        </td>
+                        </tr>
             </table></center>
 
         </>

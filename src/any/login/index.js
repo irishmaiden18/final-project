@@ -4,41 +4,41 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import {useLocation} from "react-router";
+import "./index.css";
 
 const Login = () => {
     return(
         <>
 
             <center>
-            <table bgcolor="white" cellpadding="12" border="1">
+            <table bgcolor="white" cellpadding="15">
             <tr>
-            <td colspan="2"><center><h1><i><b>Please Login!</b></i></h1></center>
+            <td colspan="2"><center><h1><i>Welcome, Please Login!</i></h1></center>
             </td>
             </tr>
             <tr>
             <td>
-            <h1><i><b>UserID:</b></i></h1>
+            <h3><i>User Name:</i></h3>
             </td>
             <td>
-            <input name="id" type="text"/>
+            <input name="id" type="text" className ="wd-curved-border"/>
             </td>
             </tr>
             <tr>
             <td>
-            <h1><i><b>Password:</b></i></h1>
+            <h3><i>Password:</i></h3>
             </td>
             <td><input name="pass"
-            type="password"/>
+            type="password" className ="wd-curved-border"/>
             </td>
             </tr>
             <tr>
             <td>
-
             </td>
             <td>
             <center>
             <Link to="/users/*">
-                 <button class="btn btn-primary btn-sm">Login</button>
+                 <button class="btn btn-primary btn-md">Login</button>
              </Link>
              </center>
             </td>

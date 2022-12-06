@@ -10,7 +10,7 @@ const {pathname} = useLocation();
  <div className="list-group">
               <Link to="/users/home" className={`list-group-item ${active === 'home'?'active':''}
                ${active == '*'?'active':''}`}>
-                Home
+                 Home
               </Link>
               <Link to="/users/search" className={`list-group-item
                              ${active === 'search'?'active':''}`}>

@@ -2,14 +2,18 @@
 //import {current} from "@reduxjs/toolkit";
 //import {logoutThunk} from "./users-thunks";
 
-const Profile = () => {
-    return(
+import React from "react";
+import ProfileComponent
+  from "./ProfileComponent";
+
+
+const Profilepage = () => {
+    return (
         <>
 
-            <h1>Profile Content</h1>
+<ProfileComponent/>
 
         </>
     );
-}
-
-export default Profile;
+};
+export default Profilepage;

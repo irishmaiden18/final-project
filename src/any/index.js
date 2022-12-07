@@ -1,8 +1,8 @@
 import NavigationTopbar from "./navigation-topbar";
 import {Routes, Route} from "react-router";
 import HomeAny from "./homeany";
-import Register from "../any/register";
-import Login from "../any/login";
+import Register from "./register";
+import Login from "./login";
 import ProfileAny from "./profileany";
 import SearchAny from "./searchany";
 
@@ -18,7 +18,7 @@ function Any() {
         </div>
       <div className="col-12 col-md-12 col-lg-10 col-xl-8"
            style={{"position": "relative"}}>
-           <NavigationTopbar active="home"/>
+           <NavigationTopbar active="homeany"/>
         <Routes>
                  <Route path="/" element={<HomeAny/>}/>
                  <Route path="homeany" element={<HomeAny/>}/>

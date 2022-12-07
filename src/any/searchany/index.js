@@ -7,7 +7,7 @@ const SearchAny = () => {
         <>
 <div className="row">
        <div className="col-11 position-relative">
-         <input placeholder="Search Tuiter"
+         <input placeholder="Search Songs"
                 className="form-control rounded-pill ps-5"/>
          <i className="bi bi-search position-absolute
                        wd-nudge-up"></i>

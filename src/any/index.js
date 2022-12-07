@@ -16,8 +16,7 @@ function Any() {
         <div>
             <br/>
         </div>
-      <div className="col-12 col-md-12 col-lg-10 col-xl-8"
-           style={{"position": "relative"}}>
+      <div className="col-12 col-md-12 col-lg-10 col-xl-8" style={{"position": "relative"}}>
            <NavigationTopbar active="home"/>
         <Routes>
                  <Route path="/" element={<HomeAny/>}/>
@@ -26,8 +25,6 @@ function Any() {
                  <Route path="searchany" element={<SearchAny/>}/>
                  <Route path="login" element={<Login/>}/>
                  <Route path="register" element={<Register/>}/>
-
-
         </Routes>
       </div>
 

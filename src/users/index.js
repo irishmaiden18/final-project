@@ -26,7 +26,6 @@ function Users() {
                     <Route path="search" element={<Search/>}/>
                     <Route path="login" element={<Login/>}/>
                     {/*<Route path="/users/movies" element={<Movies/>}/>*/}
-                    {/*<Route path="/users/login" element={<Login/>}/>*/}
                     {/*<Route path="/users/profile" element={<Profile/>}/>*/}
                 </Routes>
             </div>
